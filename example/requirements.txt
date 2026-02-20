@@ -1,0 +1,3 @@
+matplotlib
+gluonts~=0.15.1
+python-dotenv==1.0.0

@@ -1,0 +1,15 @@
+{
+  "seq_len": 2048,
+  "input_token_len": 2048,
+  "output_token_len": 48,
+  "e_layers": 8,
+  "d_model": 128,
+  "d_intermediate": 256,
+  "output_bottleneck_dim": 48,
+  "expand_v": 1.0,
+  "state_weaving": 1,
+  "gating_kernel_size": 3,
+  "main_module": "conv,attn,conv,attn",
+  "use_norm": true,
+  "learn_bias": 1
+}

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+venv/
+
+# Data and results (large files)
+data/
+results/
+gift-eval/
+
+# Outputs
+*.png
+!figures/*.png
+
+# Scripts
+push.sh
+
+# Tools
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
