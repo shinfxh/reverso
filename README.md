@@ -112,7 +112,13 @@ Use `--signal sine` to run a single signal, or `--list` to see all options.
 
 ### Gift-Eval Benchmark
 
-To reproduce the benchmark results, first follow the [Gift-Eval setup instructions](https://github.com/SalesforceAIResearch/gift-eval) to install the package and download the data. Then run:
+To reproduce the benchmark results, first follow the [Gift-Eval setup instructions](https://github.com/SalesforceAIResearch/gift-eval) to install the package and download the data. By default the script looks for the data in `data/` at the repository root. You can override this by setting the `GIFT_EVAL` environment variable:
+
+```bash
+export GIFT_EVAL=/path/to/gift-eval-data
+```
+
+Then run:
 
 ```bash
 python example/eval_gift.py \
