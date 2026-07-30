@@ -138,8 +138,8 @@ python example/eval_gift.py \
 | Model | Status | Path |
 |---|---|---|
 | Reverso-Small (550K) | Available | `checkpoints/reverso_small/` |
-| Reverso (2.6M) | Coming soon | — |
-| Reverso-Nano (200K) | Coming soon | — |
+| Reverso (2.6M) | Available | `checkpoints/reverso/` |
+| Reverso-Nano (200K) | Available | `checkpoints/reverso_nano/` |
 
 ## Citation
 
